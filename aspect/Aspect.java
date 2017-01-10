@@ -76,13 +76,13 @@ public class Aspect extends AbstractHandler {
 
     }
 
-    public void handleBefore(Object proxy, Method method, Object[] args) {
-        System.out.println("\n---------Before execution of "+ getClassName() + "#" + methodName);
-    }
-
-    public void handleAfter(Object proxy, Method method, Object[] args) {
-        System.out.println("---------After execution of "+ getClassName() + "#" + methodName+"\n");
-
-    }
-
+    //public void handleBefore(Object proxy, Method method, Object[] args) {
+    //    System.out.println("\n---------Before execution of "+ getClassName() + "#" + methodName);
+    //}
+    //
+    //public void handleAfter(Object proxy, Method method, Object[] args) {
+    //    System.out.println("---------After execution of "+ getClassName() + "#" + methodName+"\n");
+    //
+    //}
+    //
 }
